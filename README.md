@@ -1,7 +1,7 @@
 # fotomatic
 Codeacademy off-platform project
 
-Completed byu spec design, main page os working. 
+Completed by spec design, main page os working. 
 
 there is a responsive issue with tablet and mobile view:
 
