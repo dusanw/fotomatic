@@ -13,4 +13,5 @@ feel free to browse and help me out, thank you
 
 link to a page: https://dusanw.github.io/fotomatic/
 
-![Fotomatic](https://user-images.githubusercontent.com/18562312/180015041-0557637d-184c-4de4-9e1b-8c98bcbba75a.png)
+Design Spec image
+![fotomatic_spec_landing_v2](https://user-images.githubusercontent.com/18562312/180016301-22668471-bf81-4da1-ad87-a35466c1da2a.png)
