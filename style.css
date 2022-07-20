@@ -1,0 +1,264 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: roboto;
+    max-width: 1440px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    height: 85px;
+    display: flex;
+    margin: 0 30px;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+}
+
+.desktop-logo {
+    color: #4A4A4A;
+    font-size: 1.5rem;
+}
+
+
+.desktop {
+    color: #4A4A4A;
+    font-size: 1rem;
+}
+
+.desktop li {
+    display: inline;
+    line-height: 1.6;
+    padding-left: 50px;
+}
+
+.icon {
+    height: 1rem;
+    padding-left: 5px;
+}
+
+.join-button {
+    background-color: #9DC20B;
+    border-radius: 4px;
+    padding: 3px 8px;
+}
+
+.main-content {
+    background-image: url(./resources/images/banner-landingpage.jpg);
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.banner {
+    margin-top: 170px;
+    margin-left: 100px;
+    margin-bottom: 170px;
+    width: 568px;
+    background-color: #9DC20A;
+    border: 1px solid #979797;
+    border-radius: 4px;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.header {
+    margin-top: 32px;
+    margin-bottom: 12px;
+}
+
+.header h1,h2 {
+    margin: 0;
+}
+
+.cursive {
+    font-family: damion;
+}
+
+.striking {
+    font-size: 50px;
+    font-family: rubik;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.email {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    padding: 0 90px;
+    margin-bottom: 26px;
+}
+
+.button {
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+    background-color: #4A4A4A;
+    width: 408px;
+    height: 64px;
+    border-radius: 4px;
+    margin: 0 80px 56px;
+    justify-content: center;
+    align-items: center;
+}
+
+#features-section {
+    height: 745px;
+    background-color: #eaeaea;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 19px;
+
+}
+
+.feature {
+    background-color: white;
+    height: 635px;
+    margin: 64px 19px 46px 19px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.feature h2 {
+    color: #4A4A4A;
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.feature h3 {
+    color: #4A4A4A;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    height: 65%;
+    width: 90%;
+    margin: 32px;
+}
+
+.caption {
+    margin-top: 8px;
+    padding: 0px 64px;
+}
+
+#filters-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #4A4A4A;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+#filters-section h2 {
+    color: white;
+    opacity: 100%;
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+#filters-section h3 {
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.images-container {
+    display: inline-flex;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-top: 20px;
+}
+
+.filter-image {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 25%;
+    height: 350px;
+}
+
+.quotes-section {
+    background-color: #eaeaea;
+    padding: 80px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial {
+    color: #4A4A4A;
+    font-size: 1.875rem;
+    font-family: 'palatino';
+    font-style: italic;
+    line-height: 1.1;
+}
+
+.quote-citation {
+    height: 1.875rem;
+    padding-left: 30px;
+}
+
+.footer {
+    display: flex;
+    height: 62px;
+    background-color: #9B9B9B;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 32px;
+}
+
+.footer span {
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+@media only screen and (min-width: 768px) {
+    .mobile {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    .mobile {
+        display: none;
+    }
+    .banner {
+        background: none;
+        border: none;
+    }
+    .email {
+        display: none;
+    }
+    .button {
+        display: none;
+    }
+    .feature {
+        height: 635px;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .desktop {
+        display: none;
+    }
+}
